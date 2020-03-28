@@ -9,8 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var categories:[String:[Beer]]{
+        .init(
+            grouping: beerData, by: {$0.categoria.rawValue}
+        )
+    }
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+            List(categories.keys.sorted(), id: \String.self){
+                key in BeerRow(nomeCategoria: "\(key) Beers".uppercased(), beers: self.categories[key]!)
+                    .frame(height: 320)
+                    .padding(.top)
+                    .padding(.bottom)
+            }
+        .navigationBarTitle(Text("BEERS"))
+        }
+        
     }
 }
 

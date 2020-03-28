@@ -16,10 +16,10 @@ struct BeerRow: View {
     var body: some View {
        
         ScrollView{
-            ForEach(self.beers){beer in BeerItem(beer: beer)
-            
+            ForEach(self.beers)
+            {beer in BeerItem(beer: beer)
             .frame(width: 300)
-            .padding(.trailing, 30)
+            .padding(.vertical, 30)
             }
         }
     }
