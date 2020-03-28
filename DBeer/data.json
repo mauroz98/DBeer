@@ -1,0 +1,32 @@
+[
+    {
+        "id":101,
+        "nome": "Peroni",
+        "nomeImmagine":"Peroni",
+        "categoria": "Bassa fermentazione",
+        "descrizione" : "ahahahaha",
+        "provenienza": "Italia",
+        "gradazione": "4.7"
+    },
+    
+    {
+        "id":102,
+        "nome": "Delirium Tremens",
+        "nomeImmagine":"Delirium Tremens",
+        "categoria": "Alta fermentazione",
+        "descrizione" : "ahahahaha",
+        "provenienza": "Belgio",
+        "gradazione": "9.0"
+    },
+
+    {
+           "id":103,
+           "nome": "Lindemans Gueuze",
+           "nomeImmagine":"Lindemans Gueuze",
+           "categoria": "Fermentazione spontanea",
+           "descrizione" : "ahahahaha",
+           "provenienza": "Belgio",
+           "gradazione": "4.7"
+       }
+    
+]
