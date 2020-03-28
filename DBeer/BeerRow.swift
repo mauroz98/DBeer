@@ -16,9 +16,11 @@ struct BeerRow: View {
     var body: some View {
        
         ScrollView{
-            BeerItem(beer: beers.first!)
+            ForEach(self.beers){beer in BeerItem(beer: beer)
+            
             .frame(width: 300)
             .padding(.trailing, 30)
+            }
         }
     }
 }
