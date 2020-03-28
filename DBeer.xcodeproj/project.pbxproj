@@ -20,7 +20,7 @@
 		E88625A5242FA62C005E8176 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88625A4242FA62C005E8176 /* Beer.swift */; };
 		E88625A7242FA631005E8176 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88625A6242FA631005E8176 /* Data.swift */; };
 		E88625A9242FA684005E8176 /* BeerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88625A8242FA684005E8176 /* BeerDetail.swift */; };
-		E88625AD242FAA66005E8176 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E88625AC242FAA66005E8176 /* data.json */; };
+		E88625B3242FAF46005E8176 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E88625B2242FAF46005E8176 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		E88625A4242FA62C005E8176 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		E88625A6242FA631005E8176 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E88625A8242FA684005E8176 /* BeerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetail.swift; sourceTree = "<group>"; };
-		E88625AC242FAA66005E8176 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E88625B2242FAF46005E8176 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +117,8 @@
 				E88625A6242FA631005E8176 /* Data.swift */,
 				E88625A4242FA62C005E8176 /* Beer.swift */,
 				E88625A2242FA627005E8176 /* BeerItem.swift */,
-				E88625AC242FAA66005E8176 /* data.json */,
 				E88625A8242FA684005E8176 /* BeerDetail.swift */,
+				E88625B2242FAF46005E8176 /* data.json */,
 				E88625A0242FA61E005E8176 /* BeerRow.swift */,
 				E8862574242FA5F1005E8176 /* Assets.xcassets */,
 				E8862579242FA5F1005E8176 /* LaunchScreen.storyboard */,
@@ -261,7 +261,7 @@
 				E886257B242FA5F1005E8176 /* LaunchScreen.storyboard in Resources */,
 				E8862578242FA5F1005E8176 /* Preview Assets.xcassets in Resources */,
 				E8862575242FA5F1005E8176 /* Assets.xcassets in Resources */,
-				E88625AD242FAA66005E8176 /* data.json in Resources */,
+				E88625B3242FAF46005E8176 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

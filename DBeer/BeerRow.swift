@@ -25,6 +25,6 @@ struct BeerRow: View {
 
 struct BeerRow_Previews: PreviewProvider {
     static var previews: some View {
-        BeerRow(nomeCategoria: "Bassa fermentazione", beers: beerData)
+        BeerRow(nomeCategoria: "chiara", beers: beerData)
     }
 }

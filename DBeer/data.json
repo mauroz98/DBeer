@@ -3,30 +3,115 @@
         "id":101,
         "nome": "Peroni",
         "nomeImmagine":"Peroni",
-        "categoria": "Bassa fermentazione",
-        "descrizione" : "ahahahaha",
+        "categoria": "chiara",
+        "descrizione" : "Peroni is a hay yellow beer with a slight bitter taste,pleasantly malty with subtle notes of hops.Bottom-fermented.",
         "provenienza": "Italia",
-        "gradazione": "4.7"
+        "gradazione": "4.7%"
     },
     
     {
         "id":102,
         "nome": "Delirium Tremens",
         "nomeImmagine":"Delirium Tremens",
-        "categoria": "Alta fermentazione",
-        "descrizione" : "ahahahaha",
+        "categoria": "chiara",
+        "descrizione" : "Delirium Tremens is a Belgian Golden Strong Ale,pleasantly malty.",
         "provenienza": "Belgio",
-        "gradazione": "9.0"
+        "gradazione": "9.0%"
     },
 
     {
            "id":103,
            "nome": "Lindemans Gueuze",
            "nomeImmagine":"Lindemans Gueuze",
-           "categoria": "Fermentazione spontanea",
-           "descrizione" : "ahahahaha",
+           "categoria": "chiara",
+           "descrizione" : "Lindemans Gueuze is a Belgian Golden Lambic,plesantly fruty and sugary with a slightly bitter flavour of wood.",
            "provenienza": "Belgio",
-           "gradazione": "4.7"
-       }
+           "gradazione": "4.7%"
+    },
+    
+    {
+             "id":104,
+             "nome": "Lauterbacher Weissbier",
+             "nomeImmagine":"lauter",
+             "categoria": "chiara",
+             "descrizione" : "Lauterbacher Weissbier is a German amber-colored and top-fermented beer.",
+             "provenienza": "Germania",
+             "gradazione": "5.5%"
+    },
+    {
+             "id":105,
+             "nome": "Hobglobin IPA",
+             "nomeImmagine":"hob",
+             "categoria": "ambrata",
+             "descrizione" : "Hobglobin IPA is an English IPA. It tastes fruity due to his grapefruit,oranges and honey.",
+             "provenienza": "Inghilterra",
+             "gradazione": "5.3%"
+    },
+    {
+             "id":106,
+             "nome": "Paulaner",
+             "nomeImmagine":"paulaner",
+             "categoria": "chiara",
+             "descrizione" : "Paulaner Bräuhaus Lager is a bright golden beer, pleasantly malty with subtle notes of hops. Full-bodied, amber-colored and bottom-fermented.",
+             "provenienza": "Germania",
+             "gradazione": "5.5%"
+    },
+    {
+             "id":107,
+             "nome": "Hobglobin Ruby",
+             "nomeImmagine":"hob2",
+             "categoria": "ambrata",
+             "descrizione" : "Hobglobin IPA is an English Premium Bitter. Its taste is complex due to a merge between chocolate and caramel.",
+             "provenienza": "Inghilterra",
+             "gradazione": "5.2%"
+    },
+    {
+            "id":108,
+            "nome": "Kwak",
+            "nomeImmagine":"kwak",
+            "categoria": "ambrata",
+            "descrizione" : "Kwak is Belgian amber-colored Strong Ale top-fermented.",
+            "provenienza": "Belgio",
+            "gradazione": "8.0%"
+    },
+    {
+            "id":109,
+            "nome": "Belzebuth",
+            "nomeImmagine":"belze",
+            "categoria": "ambrata",
+            "descrizione" : "Belzebuth is a France Strong Ale, amber-colored beer. Its malty taste is covered by its high alcoholic strenght.",
+            "provenienza": "Francia",
+            "gradazione": "8.5%"
+    },
+    {
+            "id":110,
+            "nome": "Delirium Nocturnum",
+            "nomeImmagine":"del2",
+            "categoria": "scura",
+            "descrizione" : "Delirium Nocturnum is dark Strong Ale Belgian beer. Its taste it's strong with flavours of licorice and coffee.",
+            "provenienza": "Belgio",
+            "gradazione": "8.5%"
+    },
+    {
+            "id":111,
+            "nome": "Guinness",
+            "nomeImmagine":"guinness",
+            "categoria": "scura",
+            "descrizione" : "Guinness is a traditional Irish stout beer made from roasted barley, hops, yeast, and water. The deep color and caramelized flavor that are characteristic of Guinness come from barley that has been roasted but not malted",
+            "provenienza": "Irlanda",
+            "gradazione": "4.3%"
+    },
+    {
+            "id":112,
+            "nome": "Rochefort 8",
+            "nomeImmagine":"rochefort",
+            "categoria": "scura",
+            "descrizione" : "Rochefort 8 is a Belgian trappist beer. Scents of malt , licorice and spices",
+            "provenienza": "Belgio",
+            "gradazione": "9.2%"
+    }
+
+    
+    
     
 ]

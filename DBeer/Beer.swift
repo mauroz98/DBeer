@@ -19,9 +19,9 @@ struct Beer: Hashable, Codable, Identifiable {
     
     enum Category: String, CaseIterable, Codable, Hashable {
          
-        case BassaFermentazione = "Bassa fermentazione"
-        case AltaFermentazione = "Alta fermentazione"
-        case FermentazioneSpontanea = "Fermentazione spontanea"
+        case chiara = "chiara"
+        case scura = "scura"
+        case ambrata = "ambrata"
         
     }
     
