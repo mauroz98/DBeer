@@ -24,7 +24,7 @@ struct ContentView: View {
                     .padding(.top)
                     .padding(.bottom)
             }
-        .navigationBarTitle(Text("BEERS"))
+            .navigationBarTitle(Text("BEERS"))
         }
         
     }

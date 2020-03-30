@@ -9,17 +9,17 @@
 import SwiftUI
 
 struct BeerRow: View {
-   
+    
     var nomeCategoria : String
     var beers:[Beer]
     
     var body: some View {
-       
+        
         ScrollView{
             ForEach(self.beers)
             {beer in BeerItem(beer: beer)
-            .frame(width: 300)
-            .padding(.vertical, 30)
+                .frame(width: 300)
+                .padding(.vertical, 30)
             }
         }
     }
