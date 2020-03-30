@@ -34,7 +34,6 @@ struct BeerInfo: View {
                 }
                 
             }
-                
             .listRowInsets(EdgeInsets())
             VStack (alignment: .leading) {
                 Text(birra.descrizione)
@@ -61,7 +60,7 @@ struct BeerInfo: View {
 }
 
 
-struct OrderButton1: View {
+struct OrderButton: View {
     
     var body: some View{
         

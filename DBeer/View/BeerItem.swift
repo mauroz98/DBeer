@@ -10,11 +10,11 @@ import SwiftUI
 
 struct BeerItem: View {
     
-    var beer:Beer
+    var beer: Beer
     
     var body: some View {
         
-        NavigationLink(destination: BeerInfo(birra: beerData[0]) ){
+        NavigationLink(destination: BeerInfo(birra: beer )){
             
             VStack(alignment: .leading, spacing: 16.0) {
                 Image(beer.nomeImmagine)
@@ -39,6 +39,7 @@ struct BeerItem: View {
                 
             }
         }
+        .frame(width:  390 , height: 250)
     }
 }
 
