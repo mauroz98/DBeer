@@ -1,16 +1,14 @@
 //
-//  BeerDetail.swift
+//  BeerInfo.swift
 //  DBeer
 //
-//  Created by Giaele Di Ruggiero on 28/03/2020.
+//  Created by Giaele Di Ruggiero on 30/03/2020.
 //  Copyright © 2020 Mauro Zobel. All rights reserved.
 //
 
 import SwiftUI
 
-
-struct BearDetail: View {
-    
+struct BeerInfo: View {
     var birra:Beer
     
     var body: some View {
@@ -60,10 +58,10 @@ struct BearDetail: View {
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
     }
-    
 }
 
-struct OrderButton: View {
+
+struct OrderButton1: View {
     
     var body: some View{
         
@@ -78,10 +76,13 @@ struct OrderButton: View {
     
 }
 
-struct BearDetail_Previews: PreviewProvider {
+struct BeerInfo_Previews: PreviewProvider {
     static var previews: some View {
-        BearDetail(birra: beerData[0])
+        BeerInfo(birra: beerData[0])
     }
 }
+
+
+
 
 

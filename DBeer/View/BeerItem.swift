@@ -14,7 +14,7 @@ struct BeerItem: View {
     
     var body: some View {
         
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+        NavigationLink(destination: BeerInfo(birra: beerData[0]) ){
             
             VStack(alignment: .leading, spacing: 16.0) {
                 Image(beer.nomeImmagine)
@@ -38,13 +38,7 @@ struct BeerItem: View {
                 }
                 
             }
-            
         }
-        .cornerRadius(9)
-        .frame(width: 390 , height: 255 )
-        
-        
-        
     }
 }
 
