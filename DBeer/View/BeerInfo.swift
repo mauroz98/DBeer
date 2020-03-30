@@ -46,7 +46,9 @@ struct BeerInfo: View {
                     Spacer()
                     OrderButton()
                     Spacer()
-                }.padding(.top, 50)
+                }
+                .padding(.top, 50)
+                .buttonStyle(PlainButtonStyle())
                 
             }
             .padding(.top)
@@ -56,6 +58,7 @@ struct BeerInfo: View {
         }
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
+        .listStyle(GroupedListStyle())
     }
 }
 
@@ -64,7 +67,7 @@ struct OrderButton: View {
     
     var body: some View{
         
-        Button(action: {} ){
+        Button(action: {print("button ok")} ){
             Text("Order Now")
         } .frame(width: 200, height: 50)
             .foregroundColor(.white)
