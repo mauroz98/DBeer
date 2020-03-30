@@ -14,28 +14,37 @@ struct BeerItem: View {
     
     var body: some View {
         
-        VStack(alignment: .leading, spacing: 16.0) {
-            Image(beer.nomeImmagine)
-                .resizable()
-                .renderingMode(.original)
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 300, height: 170)
-                .cornerRadius(10)
-                .shadow(radius: 10)
+        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
             
-            VStack(alignment: .leading, spacing: 5.0){
-                Text(beer.nome)
-                    .font(.headline)
-                    .foregroundColor(.primary)
-                Text(beer.descrizione)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-                    .multilineTextAlignment(.leading)
-                    .lineLimit(2)
-                    .frame(height: 40)
+            VStack(alignment: .leading, spacing: 16.0) {
+                Image(beer.nomeImmagine)
+                    .resizable()
+                    .renderingMode(.original)
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 300, height: 170)
+                    .cornerRadius(10)
+                    .shadow(radius: 10)
+                
+                VStack(alignment: .leading, spacing: 5.0){
+                    Text(beer.nome)
+                        .font(.headline)
+                        .foregroundColor(.primary)
+                    Text(beer.descrizione)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(2)
+                        .frame(height: 40)
+                }
+                
             }
             
         }
+        .cornerRadius(9)
+        .frame(width: 390 , height: 255 )
+        
+        
+        
     }
 }
 

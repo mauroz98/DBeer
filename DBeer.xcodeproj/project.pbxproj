@@ -93,8 +93,8 @@
 			children = (
 				E8862572242FA5F0005E8176 /* ContentView.swift */,
 				E88625A2242FA627005E8176 /* BeerItem.swift */,
-				E88625A8242FA684005E8176 /* BeerDetail.swift */,
 				E88625A0242FA61E005E8176 /* BeerRow.swift */,
+				E88625A8242FA684005E8176 /* BeerDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

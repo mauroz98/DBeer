@@ -18,7 +18,7 @@ struct BeerRow: View {
         ScrollView{
             ForEach(self.beers)
             {beer in BeerItem(beer: beer)
-                .frame(width: 300)
+                .frame(width: 390)
                 .padding(.vertical, 30)
             }
         }
